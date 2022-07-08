@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb89cf4e-6942-4eec-a82a-320626c59abe" name="Changes" comment="Periodo do dia funcionando">
+    <list default="true" id="fb89cf4e-6942-4eec-a82a-320626c59abe" name="Changes" comment="Tratamento">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/hello/HelloServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hello/HelloServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/helloform.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/helloform.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -259,7 +258,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657252961224</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Tratamento">
+      <created>1657291723588</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1657291723588</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -292,6 +298,7 @@
     <MESSAGE value="Periodo" />
     <MESSAGE value="Tratamento por periodo" />
     <MESSAGE value="Periodo do dia funcionando" />
-    <option name="LAST_COMMIT_MESSAGE" value="Periodo do dia funcionando" />
+    <MESSAGE value="Tratamento" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tratamento" />
   </component>
 </project>

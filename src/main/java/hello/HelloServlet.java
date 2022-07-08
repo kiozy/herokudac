@@ -149,13 +149,13 @@ public class HelloServlet extends HttpServlet {
             trat = "nenhum";
         switch(trat){
             case "nenhum":
-                msg = "";
+                trat = "";
                 break;
             case "sr":
-                msg = "Sr. ";
+                trat = "Sr. ";
                 break;
             case "sra":
-                msg = "Sra. ";
+                trat = "Sra. ";
                 break;
         }
 
@@ -288,13 +288,13 @@ public class HelloServlet extends HttpServlet {
             trat = "nenhum";
         switch(trat){
             case "nenhum":
-                msg = "";
+                trat = "";
                 break;
             case "sr":
-                msg = "Sr. ";
+                trat = "Sr. ";
                 break;
             case "sra":
-                msg = "Sra. ";
+                trat = "Sra. ";
                 break;
         }
 
