@@ -26,11 +26,10 @@ public class HelloServlet extends HttpServlet {
      *
      * @param request servlet request
      * @param response servlet response
-     * @throws ServletException if a servlet-specific error occurs
      * @throws IOException if an I/O error occurs
      */
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
-            throws ServletException, IOException {
+            throws IOException {
         response.setContentType("text/html;charset=UTF-8");
         try (PrintWriter out = response.getWriter()) {
             /* TODO output your page here. You may use following sample code. */
@@ -40,7 +39,7 @@ public class HelloServlet extends HttpServlet {
             out.println("<title>Servlet HelloServlet</title>");            
             out.println("</head>");
             out.println("<body>");
-            out.println("<h1>Servlet HelloServlet at " + request.getContextPath() + "</h1>");
+            out.println("<h2>Servlet HelloServlet at " + request.getContextPath() + "</h2");
             out.println("</body>");
             out.println("</html>");
         }
@@ -74,12 +73,18 @@ public class HelloServlet extends HttpServlet {
             case "fr":
                 msg = "Bonjour, ";
                 break;
+            case "gr":
+                msg = "Chaírete";
+                break;
+            case "jp":
+                msg = "Kon'nichiwa";
+                break;
         }
         
         String nome = request.getParameter("nome");
 
         if(nome==null)
-            nome = "Fulano";
+            nome = "Viterbo";
         
         msg = msg+nome+"!";
 
@@ -127,6 +132,12 @@ public class HelloServlet extends HttpServlet {
                 break;
             case "de":
                 msg = "Hallo, ";
+                break;
+            case "gr":
+                msg = "Chaírete,";
+                break;
+            case "jp":
+                msg = "Kon'nichiwa,";
                 break;
         }
         

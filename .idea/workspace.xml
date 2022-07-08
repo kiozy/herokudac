@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb89cf4e-6942-4eec-a82a-320626c59abe" name="Changes" comment="Personalizado">
+    <list default="true" id="fb89cf4e-6942-4eec-a82a-320626c59abe" name="Changes" comment="Linguas adicionadas">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hello/HelloServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hello/HelloServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hello/MessageBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hello/MessageBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/helloform.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/helloform.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,7 +131,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657244779864</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Personalizado">
+      <created>1657244895243</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1657244895243</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -151,6 +161,7 @@
     <MESSAGE value="Style" />
     <MESSAGE value="Style teste" />
     <MESSAGE value="Personalizado" />
-    <option name="LAST_COMMIT_MESSAGE" value="Personalizado" />
+    <MESSAGE value="Linguas adicionadas" />
+    <option name="LAST_COMMIT_MESSAGE" value="Linguas adicionadas" />
   </component>
 </project>
