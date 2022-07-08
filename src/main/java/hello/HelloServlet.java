@@ -42,7 +42,7 @@ public class HelloServlet extends HttpServlet {
             out.println("<title>Servlet HelloServlet</title>");            
             out.println("</head>");
             out.println("<body>");
-            out.println("<h2>Servlet HelloServlet at " + request.getContextPath() + ZonedDateTime.now() +"</h2");
+            out.println("<h2>Servlet HelloServlet at " + request.getContextPath() +  "</h2");
             out.println("</body>");
             out.println("</html>");
         }
@@ -161,7 +161,8 @@ public class HelloServlet extends HttpServlet {
             out.println("<title>Servlet HelloServlet</title>");            
             out.println("</head>");
             out.println("<body>");
-            out.println("<h1>Servlet HelloServlet</h1>" + ZonedDateTime.now());
+            out.println("Data/Hora atual: "+c.getTime());
+            out.println("<h1>Servlet HelloServlet</h1>");
             out.println("<p>" + msg + "</p>");
             out.println("</body>");
             out.println("</html>");
