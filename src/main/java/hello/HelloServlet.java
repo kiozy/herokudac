@@ -70,10 +70,10 @@ public class HelloServlet extends HttpServlet {
 
         String periodo = "nada";
 
-        if (hora > 6 && hora < 12) {
+        if (hora >= 6 && hora < 12) {
             periodo = "dia";
         }
-        else if(hora > 12 && hora < 18){
+        else if(hora >= 12 && hora < 18){
             periodo = "tarde";
         }
         else{
@@ -201,10 +201,10 @@ public class HelloServlet extends HttpServlet {
 
         String periodo = "nada";
 
-        if (hora > 6 && hora < 12) {
+        if (hora >= 6 && hora < 12) {
             periodo = "dia";
         }
-        else if(hora > 12 && hora < 18){
+        else if(hora >= 12 && hora < 18){
             periodo = "tarde";
         }
         else{
