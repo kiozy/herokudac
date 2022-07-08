@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb89cf4e-6942-4eec-a82a-320626c59abe" name="Changes" comment="Margins">
+    <list default="true" id="fb89cf4e-6942-4eec-a82a-320626c59abe" name="Changes" comment="Teste cor">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/hello/HelloServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hello/HelloServlet.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -376,7 +377,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657313481350</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="Color">
+      <created>1657313571612</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1657313571612</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -391,8 +399,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Style teste" />
-    <MESSAGE value="Personalizado" />
     <MESSAGE value="Linguas adicionadas" />
     <MESSAGE value="Espaço e Viterbo" />
     <MESSAGE value="Teste hora" />
@@ -416,6 +422,8 @@
     <MESSAGE value="Cor = red" />
     <MESSAGE value="Radio colors" />
     <MESSAGE value="Margins" />
-    <option name="LAST_COMMIT_MESSAGE" value="Margins" />
+    <MESSAGE value="Color" />
+    <MESSAGE value="Teste cor" />
+    <option name="LAST_COMMIT_MESSAGE" value="Teste cor" />
   </component>
 </project>
