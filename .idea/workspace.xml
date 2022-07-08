@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb89cf4e-6942-4eec-a82a-320626c59abe" name="Changes" comment="Removido jsp">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/style.css" afterDir="false" />
+    <list default="true" id="fb89cf4e-6942-4eec-a82a-320626c59abe" name="Changes" comment="Style">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +94,21 @@
       <option name="project" value="LOCAL" />
       <updated>1657242244796</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Style">
+      <created>1657243004327</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1657243004327</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Style">
+      <created>1657243020435</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1657243020435</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -115,6 +128,7 @@
     <MESSAGE value="Limpar" />
     <MESSAGE value="Adc" />
     <MESSAGE value="Removido jsp" />
-    <option name="LAST_COMMIT_MESSAGE" value="Removido jsp" />
+    <MESSAGE value="Style" />
+    <option name="LAST_COMMIT_MESSAGE" value="Style" />
   </component>
 </project>
