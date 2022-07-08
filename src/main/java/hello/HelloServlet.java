@@ -167,7 +167,7 @@ public class HelloServlet extends HttpServlet {
             out.println("</head>");
             out.println("<body>");
             out.println("Hora:  "+ hora);
-            out.println("Data/Hora atual: "+ c1.getTime());
+            out.println("Data/Hora atual: "+ c1);
             out.println("<h1>Servlet HelloServlet</h1>");
             out.println("<p>" + msg + "</p>");
             out.println("</body>");
