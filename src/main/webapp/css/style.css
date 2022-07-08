@@ -16,3 +16,9 @@ body{
     color: green;
     text-decoration: underline;
 }
+.container .idioma {
+    margin: 2em 1em;
+}
+.container .tratamento {
+    margin: 2em 1em;
+}
