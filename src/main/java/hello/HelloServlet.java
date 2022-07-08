@@ -134,17 +134,17 @@ public class HelloServlet extends HttpServlet {
                 msg = "Hallo, ";
                 break;
             case "gr":
-                msg = "Chaírete,";
+                msg = "Chaírete, ";
                 break;
             case "jp":
-                msg = "Kon'nichiwa,";
+                msg = "Kon'nichiwa, ";
                 break;
         }
         
         String nome = request.getParameter("nome");
 
         if(nome==null)
-            nome = "Fulano";
+            nome = "Viterbo";
         
         msg = msg+nome+"!";
 
