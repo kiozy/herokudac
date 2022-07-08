@@ -7,8 +7,6 @@ package hello;
 
 import java.io.IOException;
 import java.io.PrintWriter;
-import java.time.LocalDateTime;
-import java.time.ZonedDateTime;
 import java.util.Calendar;
 import java.util.TimeZone;
 import javax.servlet.ServletException;
@@ -16,6 +14,8 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+
+import static java.awt.Color.blue;
 
 /**
  *
@@ -302,11 +302,11 @@ public class HelloServlet extends HttpServlet {
 
         if(nome==null)
             nome = "Viterbo";
-        
-        msg = msg+trat+nome+"!";
 
+        String red = "\\u001B[31m";
+        String reset ="\\u001B[30m";
 
-
+        msg = red + msg+trat+nome+"!"+ reset;
 
         response.setContentType("text/html;charset=UTF-8");
         try (PrintWriter out = response.getWriter()) {
