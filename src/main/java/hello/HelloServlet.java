@@ -22,7 +22,7 @@ import javax.servlet.http.HttpServletResponse;
  */
 @WebServlet("/alomundo")
 public class HelloServlet extends HttpServlet {
-    Calendar c = Calendar.getInstance();
+
     /**
      * Processes requests for both HTTP <code>GET</code> and <code>POST</code>
      * methods.
@@ -152,6 +152,9 @@ public class HelloServlet extends HttpServlet {
         
         msg = msg+nome+"!";
 
+        Calendar c1 = Calendar.getInstance();
+        int hora = c1.get(Calendar.HOUR_OF_DAY);
+
         response.setContentType("text/html;charset=UTF-8");
         try (PrintWriter out = response.getWriter()) {
             /* TODO output your page here. You may use following sample code. */
@@ -161,7 +164,8 @@ public class HelloServlet extends HttpServlet {
             out.println("<title>Servlet HelloServlet</title>");            
             out.println("</head>");
             out.println("<body>");
-            out.println("Data/Hora atual: "+c.getTime());
+            out.println("Hora:  "+ hora);
+            out.println("Data/Hora atual: "+ c.getTime());
             out.println("<h1>Servlet HelloServlet</h1>");
             out.println("<p>" + msg + "</p>");
             out.println("</body>");
