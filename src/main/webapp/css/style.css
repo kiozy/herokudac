@@ -17,8 +17,8 @@ body{
     text-decoration: underline;
 }
 .container .idioma {
-    margin: 1em;
+    margin: 1em 0.5em;
 }
 .container .tratamento {
-    margin: 1em;
+    margin: 1em 0.5em;
 }
