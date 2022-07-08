@@ -156,6 +156,16 @@ public class HelloServlet extends HttpServlet {
         TimeZone tz1 = TimeZone.getTimeZone("America/Sao_Paulo");
         Calendar c1 = Calendar.getInstance(tz1);
         int hora = c1.get(Calendar.HOUR_OF_DAY);
+        String periodo = "nada";
+
+        if hora (hora > 6 && hora < 12){
+            periodo = "dia";
+            }else if(hora > 12 && hora < 18){
+                periodo = "tarde";
+            }else{
+                periodo = "noite";
+            }
+        }
 
         response.setContentType("text/html;charset=UTF-8");
         try (PrintWriter out = response.getWriter()) {
@@ -167,7 +177,7 @@ public class HelloServlet extends HttpServlet {
             out.println("</head>");
             out.println("<body>");
             out.println("Hora:  "+ hora);
-            out.println("Data/Hora atual: "+ c1);
+            out.println("Período: "+ periodo);
             out.println("<h1>Servlet HelloServlet</h1>");
             out.println("<p>" + msg + "</p>");
             out.println("</body>");
