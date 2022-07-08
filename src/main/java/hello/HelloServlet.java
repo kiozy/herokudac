@@ -63,27 +63,87 @@ public class HelloServlet extends HttpServlet {
             throws ServletException, IOException {
         
         String msg = "";
-        
-        String lang = request.getParameter("lang");
-        if(lang==null)
-            lang = "pt";
-        switch(lang){
-            case "pt":
-                msg = "Alô, ";
-                break;
-            case "en":
-                msg = "Hello, ";
-                break;
-            case "fr":
-                msg = "Bonjour, ";
-                break;
-            case "gr":
-                msg = "Chaírete, ";
-                break;
-            case "jp":
-                msg = "Kon'nichiwa, ";
-                break;
+
+        TimeZone tz1 = TimeZone.getTimeZone("America/Sao_Paulo");
+        Calendar c1 = Calendar.getInstance(tz1);
+        int hora = c1.get(Calendar.HOUR_OF_DAY);
+
+        String periodo = "nada";
+
+        if (hora > 6 && hora < 12) {
+            periodo = "dia";
         }
+        else if(hora > 12 && hora < 18){
+            periodo = "tarde";
+        }
+        else{
+            periodo = "noite";
+        }
+
+        String lang = request.getParameter("lang");
+
+        if(periodo=="dia"){
+            if(lang==null)
+                lang = "pt";
+            switch(lang){
+                case "pt":
+                    msg = "Bom dia, ";
+                    break;
+                case "en":
+                    msg = "Good morning, ";
+                    break;
+                case "fr":
+                    msg = "Bonjour, ";
+                    break;
+                case "gr":
+                    msg = "Kaliméra, ";
+                    break;
+                case "jp":
+                    msg = "Ohayō, ";
+                    break;
+            }
+        }else if(periodo=="tarde"){
+            if(lang==null)
+                lang = "pt";
+            switch(lang){
+                case "pt":
+                    msg = "Boa tarde, ";
+                    break;
+                case "en":
+                    msg = "Good afternoon, ";
+                    break;
+                case "fr":
+                    msg = "Bon après-midi, ";
+                    break;
+                case "gr":
+                    msg = "Kaló apógevma, ";
+                    break;
+                case "jp":
+                    msg = "Kon'nichiwa, ";
+                    break;
+            }
+        }else if(periodo=="noite"){
+            if(lang==null)
+                lang = "pt";
+            switch(lang){
+                case "pt":
+                    msg = "Boa noite, ";
+                    break;
+                case "en":
+                    msg = "Good evening, ";
+                    break;
+                case "fr":
+                    msg = "Bonsoir, ";
+                    break;
+                case "gr":
+                    msg = "Kalinychta, ";
+                    break;
+                case "jp":
+                    msg = "Oyasumi, ";
+                    break;
+            }
+        }
+
         
         String nome = request.getParameter("nome");
 
@@ -121,6 +181,22 @@ public class HelloServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         String msg = "";
+
+        TimeZone tz1 = TimeZone.getTimeZone("America/Sao_Paulo");
+        Calendar c1 = Calendar.getInstance(tz1);
+        int hora = c1.get(Calendar.HOUR_OF_DAY);
+
+        String periodo = "nada";
+
+        if (hora > 6 && hora < 12) {
+            periodo = "dia";
+        }
+        else if(hora > 12 && hora < 18){
+            periodo = "tarde";
+        }
+        else{
+            periodo = "noite";
+        }
         
         String lang = request.getParameter("lang");
         if(lang==null)
@@ -153,21 +229,7 @@ public class HelloServlet extends HttpServlet {
         
         msg = msg+nome+"!";
 
-        TimeZone tz1 = TimeZone.getTimeZone("America/Sao_Paulo");
-        Calendar c1 = Calendar.getInstance(tz1);
-        int hora = c1.get(Calendar.HOUR_OF_DAY);
 
-        String periodo = "nada";
-
-        if (hora > 6 && hora < 12) {
-            periodo = "dia";
-        }
-        else if(hora > 12 && hora < 18){
-            periodo = "tarde";
-        }
-        else{
-            periodo = "noite";
-        }
 
 
         response.setContentType("text/html;charset=UTF-8");
@@ -179,6 +241,7 @@ public class HelloServlet extends HttpServlet {
             out.println("<title>Servlet HelloServlet</title>");            
             out.println("</head>");
             out.println("<body>");
+//            out.println("C1:  "+ c1);
             out.println("Hora:  "+ hora);
             out.println("Período: "+ periodo);
             out.println("<h1>Servlet HelloServlet</h1>");
