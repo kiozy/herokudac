@@ -17,11 +17,11 @@ body{
     text-decoration: underline;
 }
 .container .idioma {
-    margin: 4.2em 0.2em;
+    margin: 1.3em 0.2em;
 }
 .container .tratamento {
     margin: 1.2em 0.2em;
 }
-.red{
-    color: red;
+.container .cor {
+    margin: 1.2em 0.2em;
 }
