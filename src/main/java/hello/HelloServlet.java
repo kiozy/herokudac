@@ -153,7 +153,7 @@ public class HelloServlet extends HttpServlet {
         
         msg = msg+nome+"!";
 
-        TimeZone tz1 = TimeZone.getTimeZone("GMT-3");
+        TimeZone tz1 = TimeZone.getTimeZone("America/Sao_Paulo");
         Calendar c1 = Calendar.getInstance(tz1);
         int hora = c1.get(Calendar.HOUR_OF_DAY);
 
