@@ -1,4 +1,18 @@
-/*
 .container{
-    margin: 200em;
-}*/
+    margin: 2em 1em;
+}
+body{
+    font-family: 'Montserrat', sans-serif !important;
+}
+.titulo{
+    margin: 2.2em 0em ;
+}
+.container a {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+}
+.container a:hover{
+    color: green;
+    text-decoration: underline;
+}
