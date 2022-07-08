@@ -7,6 +7,7 @@ package hello;
 
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.time.ZonedDateTime;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -39,7 +40,7 @@ public class HelloServlet extends HttpServlet {
             out.println("<title>Servlet HelloServlet</title>");            
             out.println("</head>");
             out.println("<body>");
-            out.println("<h2>Servlet HelloServlet at " + request.getContextPath() + "</h2");
+            out.println("<h2>Servlet HelloServlet at " + request.getContextPath() + ZonedDateTime.now() +"</h2");
             out.println("</body>");
             out.println("</html>");
         }
@@ -74,10 +75,10 @@ public class HelloServlet extends HttpServlet {
                 msg = "Bonjour, ";
                 break;
             case "gr":
-                msg = "Chaírete";
+                msg = "Chaírete, ";
                 break;
             case "jp":
-                msg = "Kon'nichiwa";
+                msg = "Kon'nichiwa, ";
                 break;
         }
         
