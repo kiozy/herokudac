@@ -306,7 +306,7 @@ public class HelloServlet extends HttpServlet {
         String red = "\\u001B[31m";
         String reset ="\\u001B[30m";
 
-        msg = red + msg+trat+nome+"!"+ reset;
+        msg = "<div class='red'>" + msg+trat+nome + "!</div>";
 
         response.setContentType("text/html;charset=UTF-8");
         try (PrintWriter out = response.getWriter()) {
