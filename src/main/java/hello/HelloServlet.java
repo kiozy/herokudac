@@ -10,6 +10,7 @@ import java.io.PrintWriter;
 import java.time.LocalDateTime;
 import java.time.ZonedDateTime;
 import java.util.Calendar;
+import java.util.TimeZone;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -152,7 +153,8 @@ public class HelloServlet extends HttpServlet {
         
         msg = msg+nome+"!";
 
-        Calendar c1 = Calendar.getInstance();
+        TimeZone tz1 = TimeZone.getTimeZone("GMT-3");
+        Calendar c1 = Calendar.getInstance(tz1);
         int hora = c1.get(Calendar.HOUR_OF_DAY);
 
         response.setContentType("text/html;charset=UTF-8");
