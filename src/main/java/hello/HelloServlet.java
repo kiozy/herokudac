@@ -9,6 +9,7 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import java.time.LocalDateTime;
 import java.time.ZonedDateTime;
+import java.util.Calendar;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -21,7 +22,7 @@ import javax.servlet.http.HttpServletResponse;
  */
 @WebServlet("/alomundo")
 public class HelloServlet extends HttpServlet {
-
+    Calendar c = Calendar.getInstance();
     /**
      * Processes requests for both HTTP <code>GET</code> and <code>POST</code>
      * methods.
@@ -41,6 +42,7 @@ public class HelloServlet extends HttpServlet {
             out.println("<title>Servlet HelloServlet</title>");            
             out.println("</head>");
             out.println("<body>");
+            out.println("Data/Hora atual: "+c.getTime());
             out.println("<h2>Servlet HelloServlet at " + request.getContextPath() + ZonedDateTime.now() +"</h2");
             out.println("</body>");
             out.println("</html>");
@@ -159,7 +161,7 @@ public class HelloServlet extends HttpServlet {
             out.println("<title>Servlet HelloServlet</title>");            
             out.println("</head>");
             out.println("<body>");
-            out.println("<h1>Servlet HelloServlet</h1>" + LocalDateTime.now());
+            out.println("<h1>Servlet HelloServlet</h1>" + ZonedDateTime.now());
             out.println("<p>" + msg + "</p>");
             out.println("</body>");
             out.println("</html>");
