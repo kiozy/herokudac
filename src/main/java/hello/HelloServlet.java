@@ -161,7 +161,6 @@ public class HelloServlet extends HttpServlet {
             out.println("<title>Servlet HelloServlet</title>");            
             out.println("</head>");
             out.println("<body>");
-            out.println("Data/Hora atual: ");
             out.println("<h1>Servlet HelloServlet</h1>");
             out.println("<p>" + msg + "</p>");
             out.println("</body>");
@@ -199,27 +198,66 @@ public class HelloServlet extends HttpServlet {
         }
         
         String lang = request.getParameter("lang");
-        if(lang==null)
-            lang = "pt";
-        switch(lang){
-            case "pt":
-                msg = "Alô, ";
-                break;
-            case "en":
-                msg = "Hello, ";
-                break;
-            case "fr":
-                msg = "Bonjour, ";
-                break;
-            case "de":
-                msg = "Hallo, ";
-                break;
-            case "gr":
-                msg = "Chaírete, ";
-                break;
-            case "jp":
-                msg = "Kon'nichiwa, ";
-                break;
+        if(periodo=="dia"){
+            if(lang==null)
+                lang = "pt";
+            switch(lang){
+                case "pt":
+                    msg = "Bom dia, ";
+                    break;
+                case "en":
+                    msg = "Good morning, ";
+                    break;
+                case "fr":
+                    msg = "Bonjour, ";
+                    break;
+                case "gr":
+                    msg = "Kaliméra, ";
+                    break;
+                case "jp":
+                    msg = "Ohayō, ";
+                    break;
+            }
+        }else if(periodo=="tarde"){
+            if(lang==null)
+                lang = "pt";
+            switch(lang){
+                case "pt":
+                    msg = "Boa tarde, ";
+                    break;
+                case "en":
+                    msg = "Good afternoon, ";
+                    break;
+                case "fr":
+                    msg = "Bon après-midi, ";
+                    break;
+                case "gr":
+                    msg = "Kaló apógevma, ";
+                    break;
+                case "jp":
+                    msg = "Kon'nichiwa, ";
+                    break;
+            }
+        }else if(periodo=="noite"){
+            if(lang==null)
+                lang = "pt";
+            switch(lang){
+                case "pt":
+                    msg = "Boa noite, ";
+                    break;
+                case "en":
+                    msg = "Good evening, ";
+                    break;
+                case "fr":
+                    msg = "Bonsoir, ";
+                    break;
+                case "gr":
+                    msg = "Kalinychta, ";
+                    break;
+                case "jp":
+                    msg = "Oyasumi, ";
+                    break;
+            }
         }
         
         String nome = request.getParameter("nome");
