@@ -211,6 +211,9 @@ public class HelloServlet extends HttpServlet {
                 case "fr":
                     msg = "Bonjour, ";
                     break;
+                case "de":
+                    msg = "Guten Morgen, ";
+                    break;
                 case "gr":
                     msg = "Kaliméra, ";
                     break;
@@ -231,6 +234,9 @@ public class HelloServlet extends HttpServlet {
                 case "fr":
                     msg = "Bon après-midi, ";
                     break;
+                case "de":
+                    msg = "Guten Nachmittag, ";
+                    break;
                 case "gr":
                     msg = "Kaló apógevma, ";
                     break;
@@ -250,6 +256,9 @@ public class HelloServlet extends HttpServlet {
                     break;
                 case "fr":
                     msg = "Bonsoir, ";
+                    break;
+                case "de":
+                    msg = "Gute Nacht, ";
                     break;
                 case "gr":
                     msg = "Kalinychta, ";
@@ -280,8 +289,8 @@ public class HelloServlet extends HttpServlet {
             out.println("</head>");
             out.println("<body>");
 //            out.println("C1:  "+ c1);
-            out.println("Hora:  "+ hora);
-            out.println("Período: "+ periodo);
+//            out.println("Hora:  "+ hora);
+//            out.println("Período: "+ periodo);
             out.println("<h1>Servlet HelloServlet</h1>");
             out.println("<p>" + msg + "</p>");
             out.println("</body>");

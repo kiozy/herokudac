@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb89cf4e-6942-4eec-a82a-320626c59abe" name="Changes" comment="Tratamento por periodo">
+    <list default="true" id="fb89cf4e-6942-4eec-a82a-320626c59abe" name="Changes" comment="Periodo do dia funcionando">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/hello/HelloServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hello/HelloServlet.java" afterDir="false" />
     </list>
@@ -244,7 +244,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657252116881</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Tratamento por periodo">
+      <created>1657252538415</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1657252538415</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -276,6 +283,7 @@
     <MESSAGE value="Timezone SP" />
     <MESSAGE value="Periodo" />
     <MESSAGE value="Tratamento por periodo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tratamento por periodo" />
+    <MESSAGE value="Periodo do dia funcionando" />
+    <option name="LAST_COMMIT_MESSAGE" value="Periodo do dia funcionando" />
   </component>
 </project>
