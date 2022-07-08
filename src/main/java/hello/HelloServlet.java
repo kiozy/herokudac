@@ -317,8 +317,8 @@ public class HelloServlet extends HttpServlet {
             out.println("<title>Servlet HelloServlet</title>");            
             out.println("</head>");
             out.println("<body>");
-//            out.println("C1:  "+ c1);
-//            out.println("Hora:  "+ hora);
+            out.println("C1:  "+ c1);
+            out.println("Hora:  "+ hora);
 //            out.println("Período: "+ periodo);
             out.println("<h1>Servlet HelloServlet</h1>");
             out.println("<p>" + msg + "</p>");
