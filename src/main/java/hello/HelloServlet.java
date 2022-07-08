@@ -144,13 +144,27 @@ public class HelloServlet extends HttpServlet {
             }
         }
 
-        
+        String trat= request.getParameter("trat");
+        if(trat==null)
+            trat = "nenhum";
+        switch(trat){
+            case "nenhum":
+                msg = "";
+                break;
+            case "sr":
+                msg = "Sr. ";
+                break;
+            case "sra":
+                msg = "Sra. ";
+                break;
+        }
+
         String nome = request.getParameter("nome");
 
         if(nome==null)
             nome = "Viterbo";
         
-        msg = msg+nome+"!";
+        msg = msg+trat+nome+"!";
 
         response.setContentType("text/html;charset=UTF-8");
         try (PrintWriter out = response.getWriter()) {
@@ -268,13 +282,28 @@ public class HelloServlet extends HttpServlet {
                     break;
             }
         }
-        
+
+        String trat= request.getParameter("trat");
+        if(trat==null)
+            trat = "nenhum";
+        switch(trat){
+            case "nenhum":
+                msg = "";
+                break;
+            case "sr":
+                msg = "Sr. ";
+                break;
+            case "sra":
+                msg = "Sra. ";
+                break;
+        }
+
         String nome = request.getParameter("nome");
 
         if(nome==null)
             nome = "Viterbo";
         
-        msg = msg+nome+"!";
+        msg = msg+trat+nome+"!";
 
 
 
