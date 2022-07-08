@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb89cf4e-6942-4eec-a82a-320626c59abe" name="Changes" comment="Adc">
+    <list default="true" id="fb89cf4e-6942-4eec-a82a-320626c59abe" name="Changes" comment="Removido jsp">
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/sayhello.jsp" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +88,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657241955701</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Removido jsp">
+      <created>1657242244796</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1657242244796</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -107,6 +114,7 @@
     <MESSAGE value="Teste" />
     <MESSAGE value="Limpar" />
     <MESSAGE value="Adc" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adc" />
+    <MESSAGE value="Removido jsp" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removido jsp" />
   </component>
 </project>
