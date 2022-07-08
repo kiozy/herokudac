@@ -307,7 +307,7 @@ public class HelloServlet extends HttpServlet {
         if(nome==null)
             nome = "Viterbo";
 
-        msg = "<div style="+ cor + '>' + msg+trat+nome + cor+  "!</div>";
+        msg = "<div style="+ cor + '>' + msg+trat+nome + "!</div>";
 
         response.setContentType("text/html;charset=UTF-8");
         try (PrintWriter out = response.getWriter()) {
