@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb89cf4e-6942-4eec-a82a-320626c59abe" name="Changes" comment="Cores funcionando">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="fb89cf4e-6942-4eec-a82a-320626c59abe" name="Changes" comment="Cores mais legíveis">
       <change beforePath="$PROJECT_DIR$/src/main/webapp/helloform.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/helloform.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,13 +60,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1657240359537</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Teste">
-      <created>1657241110572</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1657241110572</updated>
     </task>
     <task id="LOCAL-00003" summary="Limpar">
       <created>1657241696620</created>
@@ -405,7 +397,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657314417926</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="Cores mais legíveis">
+      <created>1657314786963</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1657314786963</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -420,7 +419,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Espaço e Viterbo" />
     <MESSAGE value="Teste hora" />
     <MESSAGE value="Readme e teste hora" />
     <MESSAGE value="teste hora" />
@@ -445,6 +443,7 @@
     <MESSAGE value="Color" />
     <MESSAGE value="Teste cor" />
     <MESSAGE value="Cores funcionando" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cores funcionando" />
+    <MESSAGE value="Cores mais legíveis" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cores mais legíveis" />
   </component>
 </project>
