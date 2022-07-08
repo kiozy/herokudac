@@ -197,6 +197,8 @@ public class HelloServlet extends HttpServlet {
 
         String cor = request.getParameter("cor");
 
+        cor = '"'+cor+'"';
+
         TimeZone tz1 = TimeZone.getTimeZone("America/Sao_Paulo");
         Calendar c1 = Calendar.getInstance(tz1);
         int hora = c1.get(Calendar.HOUR_OF_DAY);
