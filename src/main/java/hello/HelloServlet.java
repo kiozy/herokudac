@@ -195,7 +195,8 @@ public class HelloServlet extends HttpServlet {
             throws ServletException, IOException {
         String msg = "";
 
-        String cor = request.getParameter("color: "+"cor"+",");
+        String cor = request.getParameter("cor");
+        cor = "color: "+ cor +",";
 
         TimeZone tz1 = TimeZone.getTimeZone("America/Sao_Paulo");
         Calendar c1 = Calendar.getInstance(tz1);
