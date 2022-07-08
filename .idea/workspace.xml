@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb89cf4e-6942-4eec-a82a-320626c59abe" name="Changes" comment="Espaço e Viterbo">
+    <list default="true" id="fb89cf4e-6942-4eec-a82a-320626c59abe" name="Changes" comment="Teste hora">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/hello/HelloServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hello/HelloServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/helloform.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/helloform.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +42,9 @@
     </option>
   </component>
   <component name="ProjectId" id="2BdeO5B6Doj9qPoNp5V6FVDJMDw" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -150,7 +156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657246439071</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Teste hora">
+      <created>1657246739670</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1657246739670</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -175,6 +188,7 @@
     <MESSAGE value="Personalizado" />
     <MESSAGE value="Linguas adicionadas" />
     <MESSAGE value="Espaço e Viterbo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Espaço e Viterbo" />
+    <MESSAGE value="Teste hora" />
+    <option name="LAST_COMMIT_MESSAGE" value="Teste hora" />
   </component>
 </project>

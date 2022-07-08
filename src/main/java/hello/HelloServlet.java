@@ -7,6 +7,7 @@ package hello;
 
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.time.LocalDateTime;
 import java.time.ZonedDateTime;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -158,7 +159,7 @@ public class HelloServlet extends HttpServlet {
             out.println("<title>Servlet HelloServlet</title>");            
             out.println("</head>");
             out.println("<body>");
-            out.println("<h1>Servlet HelloServlet</h1>");
+            out.println("<h1>Servlet HelloServlet</h1>" + LocalDateTime.now());
             out.println("<p>" + msg + "</p>");
             out.println("</body>");
             out.println("</html>");
