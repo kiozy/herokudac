@@ -195,7 +195,7 @@ public class HelloServlet extends HttpServlet {
             throws ServletException, IOException {
         String msg = "";
 
-        String cor = request.getParameter("cor"+",");
+        String cor = request.getParameter("color: "+"cor"+",");
 
         TimeZone tz1 = TimeZone.getTimeZone("America/Sao_Paulo");
         Calendar c1 = Calendar.getInstance(tz1);
@@ -305,7 +305,7 @@ public class HelloServlet extends HttpServlet {
         if(nome==null)
             nome = "Viterbo";
 
-        msg = "<div style='color:'"+ cor + '>' + msg+trat+nome + "!</div>";
+        msg = "<div style="+ cor + '>' + msg+trat+nome + "!</div>";
 
         response.setContentType("text/html;charset=UTF-8");
         try (PrintWriter out = response.getWriter()) {
